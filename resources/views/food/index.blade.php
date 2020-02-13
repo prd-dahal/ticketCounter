@@ -1,7 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <div class="jumbotron">
-    	<a href="/food/create" class='btn btn-primary'>Add Food</a>
+        	
+    
+    <div class="" style="margin: 5px  10px 10px 5px">
+        <a href="/food/create" class='btn btn-primary'>Add Food</a>
+
     </div>
     <div>
     	<table class='table'>

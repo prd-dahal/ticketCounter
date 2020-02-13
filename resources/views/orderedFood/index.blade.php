@@ -1,8 +1,11 @@
 @extends('layouts.app')
 @section('content')
-	<div class="jumbotron">
-		<a href="/orderedFood/create" class='btn btn-primary'>Order Food</a>
-	</div>
+	
+		
+	<div class="" style="margin: 5px  10px 10px 5px">
+        <a href="/orderedFood/create" class='btn btn-primary'>Order Food</a>
+
+    </div>
 	<table class="table">
 		<thead>
 			<th scope='col'>Stall Id</th>

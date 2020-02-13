@@ -33,3 +33,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/details', 'PagesController@details');
+
+
+Route::resource('datatables', 'DatatablesController', [
+    'ticketUser'  => 'datatables.data',
+    
+]);
